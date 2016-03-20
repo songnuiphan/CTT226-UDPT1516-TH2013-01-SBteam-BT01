@@ -1,0 +1,83 @@
+body {
+	margin : 0px;
+	font-family: "Arial", Arial, sansserif;
+}
+
+.banner {
+	
+}
+
+.topmenu {
+	
+
+}
+
+.topmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topmenu li {
+    float: left;
+}
+
+.topmenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.topmenu li a:hover {
+    background-color: #111;
+}
+
+.content {
+	
+}
+
+.title {
+	
+}
+
+.title h1 {
+    text-align: center;
+}
+
+.personal {
+	width : 600px;
+	margin : auto;
+}
+
+.avatar {
+	float : left;
+}
+
+.avatar img {
+	width : 300px;
+	height : auto;
+	
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.information {
+	float : left;
+}
+
+.clearfix {
+	clear: left;
+    overflow: auto;
+}
+
+.footer {
+	
+}
+
+
