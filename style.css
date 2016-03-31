@@ -11,6 +11,42 @@ body {
 	
 
 }
+
+a{text-decoration:none;
+	display:block; }
+a:link {
+    color: #000;
+}
+a:visited {
+    color: #000;
+}
+a:hover {
+    color: #FF00FF;
+}
+a:active {
+    color: #0000FF;
+}
+.blackcell {
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	float:left;
+}
+
+.whitecell {
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	float:left;
+}
+
+.boardrow {
+	width:160px;
+}
+.board{
+	width:160px;
+	height:160px;
+}
 .leftmenu {
 	
 }
@@ -38,7 +74,9 @@ body {
 .topmenu li a:hover {
     background-color: #111;
 }
-
+.wrapper {
+	width:1044px; margin:0 auto; background:#0CF
+}
 .content {
 	
 }
