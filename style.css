@@ -11,9 +11,47 @@ body {
 	
 
 }
-.leftmenu {
-	
+
+a{text-decoration:none;
+	display:block; }
+a:link {
+    color: #000;
 }
+a:visited {
+    color: #000;
+}
+a:hover {
+    color: #FF00FF;
+}
+a:active {
+    color: #0000FF;
+}
+.blackcell {
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	float:left;
+}
+
+.whitecell {
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	float:left;
+}
+
+.boardrow {
+	width:400px;
+}
+.board{
+	float:left-center-left;
+	border: 2px solid black;
+	width:400px;
+	height:400px;
+	margin:100px auto 0px auto;
+
+}
+
 .topmenu ul {
     list-style-type: none;
     margin: 0;
@@ -38,9 +76,34 @@ body {
 .topmenu li a:hover {
     background-color: #111;
 }
-
-.content {
-	
+.wrapper {
+	margin:0 auto;
+}
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.sidebar{ 
+     float: left; 
+     width:  200px;
+     padding: 2px;
+     height: auto; 
+}
+.sidebar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.sidebar li a:hover {
+    background-color: #111;
+}
+.content{
+	float: center-left;
 }
 
 .title {
