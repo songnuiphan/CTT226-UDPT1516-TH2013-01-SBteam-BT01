@@ -11,7 +11,9 @@ body {
 	
 
 }
-
+.leftmenu {
+	
+}
 .topmenu ul {
     list-style-type: none;
     margin: 0;
@@ -48,7 +50,10 @@ body {
 .title h1 {
     text-align: center;
 }
-
+.group {
+	width : 600px;
+	margin : auto;
+}
 .personal {
 	width : 600px;
 	margin : auto;
@@ -56,6 +61,9 @@ body {
 
 .avatar {
 	float : left;
+}
+.avatargroup {
+	float : center;
 }
 
 .avatar img {
@@ -66,7 +74,14 @@ body {
     border-radius: 4px;
     padding: 5px;
 }
-
+.avatargroup img {
+	width : 600px;
+	height : auto;
+	
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
 .information {
 	float : left;
 }
