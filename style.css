@@ -252,6 +252,15 @@ h3 {
 
 .avatar {
 	width: 100%;
+	float : none;
 }
 
+.intro {
+	float : none;
+}
+
+.container {
+	width: 100%;
+	padding: 0;
+}
 }
