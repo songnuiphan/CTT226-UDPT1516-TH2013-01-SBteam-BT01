@@ -17,83 +17,51 @@ h3 {
 	margin-left: auto;
 }
 
-.banner {
-	margin:0px 0px 0px 0px;	
-	width: auto;
-	height: 308px;
+.header_bg {
+	height: 305px;
+	background-image: url('banner.png');
 }
 
 .topmenu {
-	margin:0px 0px 0px 0px;	
-
-
+	background: #2A2A2A;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-a{text-decoration:none;
-	display:block; }
-a:link {
-    color: #000;
-}
-a:visited {
-    color: #000;
-}
-a:hover {
-    color: #FF00FF;
-}
-a:active {
-    color: #0000FF;
-}
-.blackcell {
-	width: 50px;
-	height: 50px;
-	background-color: black;
-	float:left;
+.nav_container {
+	width: 450px;
+	margin: 0 auto;
 }
 
-.whitecell {
-	width: 50px;
-	height: 50px;
-	background-color: white;
-	float:left;
-}
-
-.boardrow {
-	width:400px;
-}
-.board{
-	float:left-center-left;
-	border: 2px solid black;
-	width:400px;
-	height:400px;
-	margin:25px auto 50px auto;
-
-}
-
-.topmenu ul {
-	margin:0px;
+.nav_container ul {
     list-style-type: none;
-    padding: 0px;
+    padding: 0;
     overflow: hidden;
-    background-color: #333;
+	margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-.topmenu li {
+.nav_container li {
     float: left;
 }
 
-.topmenu li a {
+.nav_container li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 16px 32px;
+    padding: 14px 16px;
     text-decoration: none;
-	margin-left:250px;
+	width: 118px;
 }
 
 /* Change the link color to #111 (black) on hover */
-.topmenu li a:hover {
+.nav_container li a:hover {
     background-color: #111;
 }
+
+.nav_container li a.active {
+	background-color: #0099FF;
+}
+
 .wrapper {
 	float: left;
 	margin:0px 0px 0px 0px;	
@@ -104,21 +72,24 @@ a:active {
 	float: left;
     width:  25%;
     padding: 0px;
-    height: 100%; 
+    height: 100%;
+	margin-top: 50px;
 }
 .sidebar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #332;
+    /*background-color: #332;*/
+	background-color: #fff;
 }
 .sidebar li a {
     display: block;
-    color: white;
-    text-align: center;
+    color: black;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
+	background-color: #f44336;
 }
 .sidebar li a:hover {
     background-color: #111;
@@ -127,6 +98,7 @@ a:active {
 	height:auto;
 	width:75%;
 	float: right;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .content{
 	float: center-left;
@@ -139,30 +111,21 @@ a:active {
 .title h1 {
     text-align: center;
 }
+
+.text-center {
+    text-align: center;
+}
+
 .group {
 	width : 600px;
 	margin : auto;
 }
-.personal {
-	width : 600px;
-	margin : auto;
-}
 
-.avatar {
-	float : left;
-}
+
 .avatargroup {
 	float : center;
 }
 
-.avatar img {
-	width : 300px;
-	height : auto;
-	
-	border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-}
 .avatargroup img {
 	width : 600px;
 	height : auto;
@@ -171,36 +134,25 @@ a:active {
     border-radius: 4px;
     padding: 5px;
 }
-.information {
+
+
+.avatar {
 	float : left;
+	width: 300px;
 }
 
-.operation {
-	width: 50px;
-	float: left;
-}
-
-.result {
-	width: 40px;
-	float: left;
-}
-
-.multiplication_col {
-	width: 90px;
-	float: left;
-	padding: 10px;
+.avatar img {
+    max-width: 100%;
+    max-height: 100%;
+	
 	border: 1px solid #ddd;
     border-radius: 4px;
-    margin: 4px;
+    padding: 5px;
 }
 
-.multiplication_row {
-	width: 480px;
-}
-
-.multiplication_table {
-	width: 480px;
-	margin: 0px auto 25px auto;
+.intro {
+	float : left;
+	line-height: 1.8;
 }
 
 .clearfix {
