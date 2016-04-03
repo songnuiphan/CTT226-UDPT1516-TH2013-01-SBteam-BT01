@@ -7,6 +7,7 @@
 	<title>BTUDPT01</title>
 	<link rel="stylesheet" href="font.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="contact.css">
 </head>
 <body>
 	<header>
@@ -17,33 +18,25 @@
 			<div class="nav_container">
 				<ul>
 				  <li><a href="index.html">Trang chủ</a></li>
-				  <li><a class="active" href="1212283.html">1212283</a></li>
+				  <li><a href="1212283.html">1212283</a></li>
 				  <li><a href="1312379.html">1312379</a></li>
 				  <li><a href="blog.html">Blog</a></li>
-				  <li><a href="contact.html">Liên hệ</a></li>
+				  <li><a class="active" href="contact.html">Liên hệ</a></li>
 				</ul>
 			</div>
 		</div>
 	</header>
 	<div class="content">
-		<div class="container">
-			<div class="title text-center"><h3>1212283 <span style="color:#33c69c;">Phan Sông Núi</span></h3></div>
-			<div class="info">
-				<div class="avatar">
-					<img src="nui.jpg" alt="Nui"/>
-				</div>
-				<div class="intro">
-					<ul style="list-style: none;">
-						<li><b>MSSV:</b> 1212283</li>
-						<li><b>Họ tên:</b> Phan Sông Núi</li>
-						<li><b>Email:</b> songnuiphan@gmail.com</li>
-						<li><b>Vai trò:</b> Nhóm trưởng</li>
-						<li><b>Sở trường:</b> Hát</li>
-					</ul>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-		</div>
+		<h4 class="text-center">Mọi thắc mắc vui lòng liên hệ với chúng tôi theo mẫu sau:</h4>
+		<form>
+            <label>Tên:</label>
+            <input name="name" placeholder="Nhập tên ở đây">
+            <label>Email:</label>
+            <input name="email" type="email" placeholder="Nhập nội dung email ở đây">
+            <label>Nội dung liên hệ:</label>
+            <textarea name="message" placeholder="Nhập nội dung ở đây"></textarea>
+            <input id="submit" name="submit" type="submit" value="Gửi">
+        </form>      
 	</div>
 	<footer>
 		<div class ="footer">	

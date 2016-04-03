@@ -1,12 +1,23 @@
 body {
 	margin : 0px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'robotolight', sans-serif;
 	color: #474747;
 }
 
 h3 {
 	font-weight: 700;
 	font-size: 2em;
+}
+
+a {
+    color: #555;
+    outline: none;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
 }
 
 .container {
@@ -28,7 +39,7 @@ h3 {
 }
 
 .nav_container {
-	width: 450px;
+	width: 750px;
 	margin: 0 auto;
 }
 
@@ -202,7 +213,7 @@ h3 {
 
 .clearfix {
 	clear: left;
-    overflow: auto;
+    content:" "
 }
 .footercontent{
 	margin: 15px 0px 15px 15px;
@@ -262,5 +273,4 @@ h3 {
 .container {
 	width: 100%;
 	padding: 0;
-}
 }
