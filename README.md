@@ -21,8 +21,8 @@ Yêu cầu **thiết kế**:
 * [ ] Thiết kế theo table.
 * [x] Thiết kế với div.
 * [x] Thiết kế nâng cao
-    * [ ] Navigation, header, footer, sidebar.
-    * [ ] Các hiệu ứng: hover, focus,...
+    * [x] Navigation, header, footer, sidebar.
+    * [x] Các hiệu ứng: hover, focus,...
 * [x] Thiết kế chạy trên nhiều trình duyệt
     * [x] IE
     * [x] Firefox
