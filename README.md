@@ -1,6 +1,6 @@
-# BT-UDPT-1 - *Name of your app*
+# BT-UDPT-1 - *Trang web giới thiệu nhóm N2*
 
-**Trang web giới thiệu nhóm** là một bài tập 1 tại môn UDPT.
+**Trang web giới thiệu nhóm N2** là một bài tập 1 tại môn UDPT.
 
 Thành viên: **1212283 Phan Sông Núi - 1312379 Nguyễn Thị Bích Ngân**
 
