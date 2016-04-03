@@ -2,9 +2,9 @@
 
 **Trang web giới thiệu nhóm N2** là một bài tập 1 tại môn UDPT.
 
-Thành viên: **1212283 Phan Sông Núi - 1312379 Nguyễn Thị Bích Ngân**
+Thành viên: **1212283 Phan Sông Núi + 1312379 Nguyễn Thị Bích Ngân**
 
-URL: **URL hosting của bài tập**
+URL: **http://songnuiphan.github.io/**
 
 ## Yêu cầu
 
@@ -16,7 +16,7 @@ Yêu cầu **GIT**:
 * [ ] Sử dụng GIT theo Feature Branch Workflow.
 * [x] Sử dụng GIT theo Gitflow Workflow.
 
-Yêu cầu **thiết kế**:
+Các yêu cầu **thiết kế**:
 
 * [ ] Thiết kế theo table.
 * [x] Thiết kế với div.
@@ -27,7 +27,7 @@ Yêu cầu **thiết kế**:
     * [x] IE
     * [x] Firefox
     * [x] Chrome
-    * [ ] Icon, màu sắc,...
+    * [x] Icon, màu sắc,...
 * [x] Thiết kế responsive
 
 Liệt kê các **yêu cầu nâng cao** đã thực hiện:
